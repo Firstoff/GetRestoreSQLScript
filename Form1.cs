@@ -31,8 +31,8 @@ namespace lesson9_methods
                 $"\r\n" +
                 $"--gmsa user\r\n" +
                 $"\r\n" +
-                $"CREATE USER [IE\\gmsa-test1c$]\r\n" +
-                $"ALTER ROLE[db_owner] ADD MEMBER [IE\\gmsa-test1c$]\r\n" +
+                $"CREATE USER [Domain\\username]\r\n" +
+                $"ALTER ROLE[db_owner] ADD MEMBER [Domain\\username]\r\n" +
                 $"GO\r\n";
         }
 
